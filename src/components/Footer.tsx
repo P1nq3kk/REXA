@@ -1,4 +1,3 @@
-import React from 'react';
 import { portfolioConfig } from '../data/config';
 
 export const Footer = () => {

@@ -1,14 +1,3 @@
-import {
-  Code2,
-  FileJson,
-  MonitorSmartphone,
-  Server,
-  Palette,
-  Terminal,
-  Database,
-  Globe
-} from 'lucide-react';
-
 export const portfolioConfig = {
   personal: {
     name: 'Alex',

@@ -1,4 +1,3 @@
-import React from 'react';
 import { portfolioConfig } from '../data/config';
 import { Button } from './ui/Button';
 import { Badge } from './ui/Badge';

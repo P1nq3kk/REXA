@@ -1,4 +1,3 @@
-import React from 'react';
 import { portfolioConfig } from '../data/config';
 import { Badge } from './ui/Badge';
 import { ArrowUpRight } from 'lucide-react';
