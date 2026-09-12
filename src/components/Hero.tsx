@@ -75,12 +75,15 @@ export const Hero = () => {
             
             <div className="relative z-10 w-full aspect-square md:aspect-[4/5] rounded-[2rem] overflow-hidden border border-border bg-card/50 backdrop-blur-sm p-4">
                {/* Inner glow and portrait */}
-               <div className="w-full h-full rounded-3xl overflow-hidden relative bg-gradient-to-br from-primary/30 to-secondary/10">
-                  <img 
-                    src={personal.portrait} 
-                    alt={personal.fullName} 
-                    className="absolute bottom-0 w-full h-auto object-cover object-bottom filter contrast-125"
-                  />
+               <div className="w-full h-full rounded-3xl overflow-hidden relative bg-gradient-to-br from-primary/30 to-secondary/10 flex items-center justify-center flex-col gap-4">
+                  <div className="text-primary w-32 h-32 md:w-48 md:h-48 drop-shadow-[0_0_30px_rgba(124,77,255,0.5)] flex items-center justify-center">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
+                      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                      <polyline points="3.29 7 12 12 20.71 7"></polyline>
+                      <line x1="12" y1="22" x2="12" y2="12"></line>
+                    </svg>
+                  </div>
+                  <span className="text-4xl md:text-5xl font-black tracking-tight text-white/90 drop-shadow-md uppercase">Pexa</span>
                </div>
             </div>
 
@@ -101,10 +104,10 @@ export const Hero = () => {
                   <div className="w-2.5 h-2.5 rounded-full bg-yellow-500"></div>
                   <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
                 </div>
-                <span className="text-text-secondary opacity-70">developer.js</span>
+                <span className="text-text-secondary opacity-70">team.js</span>
               </div>
               <div className="text-text-main">
-                <span className="text-primary">const</span> developer = {'{'} <br/>
+                <span className="text-primary">const</span> team = {'{'} <br/>
                 &nbsp;&nbsp;name: <span className="text-green-400">"{personal.name}"</span>,<br/>
                 &nbsp;&nbsp;skills: [<span className="text-green-400">"React"</span>, <span className="text-green-400">"TS"</span>],<br/>
                 &nbsp;&nbsp;passion: <span className="text-green-400">"Веб-разработка"</span><br/>

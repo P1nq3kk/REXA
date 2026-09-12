@@ -1,19 +1,19 @@
 export const portfolioConfig = {
   personal: {
-    name: 'Алекс',
-    fullName: 'Алекс Разработчик',
-    role: 'Веб-разработчик',
-    email: 'hello@alexdev.com',
-    phone: '+1 (555) 123-4567',
+    name: 'Pexa',
+    fullName: 'Команда Pexa',
+    role: 'Веб-студия',
+    email: 'hello@pexa.dev',
+    phone: '+7 (999) 123-45-67',
     cvLink: '#',
-    portrait: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop',
-    logo: 'CodeCraft',
+    portrait: '', // Will be replaced by a logo icon in the component
+    logo: 'Pexa',
   },
   hero: {
-    badge: "Я ВЕБ-РАЗРАБОТЧИК",
-    headlinePart1: "Привет, я ",
-    headlinePart2: "Я создаю проекты для веба.",
-    description: "Я увлеченный веб-разработчик, специализирующийся на создании исключительных цифровых продуктов с использованием современных технологий.",
+    badge: "ВЕБ-СТУДИЯ",
+    headlinePart1: "Мы — команда ",
+    headlinePart2: "Создаем современные сайты.",
+    description: "Мы — команда профессионалов Pexa, специализирующаяся на разработке высокотехнологичных веб-приложений и уникальных цифровых продуктов для вашего бизнеса.",
     techIcons: [
       { name: 'HTML5', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS3', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -25,62 +25,62 @@ export const portfolioConfig = {
     ]
   },
   about: {
-    badge: 'ОБО МНЕ',
-    headline: "Я увлечен созданием\nцифровых решений",
-    description: "Имея более 4 лет опыта в веб-разработке, я помогаю компаниям и частным лицам воплощать их идеи в жизнь с помощью чистого, эффективного и удобного кода.",
+    badge: 'О НАС',
+    headline: "Мы увлечены созданием\nцифровых решений",
+    description: "Уже несколько лет наша команда помогает бизнесу масштабироваться, автоматизировать процессы и привлекать новых клиентов за счет разработки быстрых, надежных и современных веб-платформ.",
     stats: [
-      { icon: 'calendar', value: '4+', label: 'Года Опыта' },
-      { icon: 'code', value: '50+', label: 'Выполненных Проектов' },
-      { icon: 'smile', value: '30+', label: 'Довольных Клиентов' },
+      { icon: 'calendar', value: '5+', label: 'Лет на Рынке' },
+      { icon: 'code', value: '100+', label: 'Выполненных Проектов' },
+      { icon: 'smile', value: '50+', label: 'Довольных Клиентов' },
       { icon: 'trophy', value: '100%', label: 'Удовлетворенность' },
     ]
   },
   skills: {
-    badge: 'МОИ НАВЫКИ',
-    headline: 'Технологии, которыми я владею',
+    badge: 'НАШИ ТЕХНОЛОГИИ',
+    headline: 'Стек, которым мы владеем',
     categories: [
       {
         skills: [
           { name: 'HTML', percentage: 95, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-          { name: 'CSS', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+          { name: 'CSS', percentage: 95, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
           { name: 'JavaScript', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
         ]
       },
       {
         skills: [
-          { name: 'React.js', percentage: 85, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-          { name: 'Next.js', percentage: 80, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-          { name: 'TypeScript', percentage: 85, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+          { name: 'React.js', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+          { name: 'Next.js', percentage: 85, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
+          { name: 'TypeScript', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
         ]
       },
       {
         skills: [
-          { name: 'Node.js', percentage: 80, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-          { name: 'Tailwind CSS', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
-          { name: 'Git', percentage: 85, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+          { name: 'Node.js', percentage: 85, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+          { name: 'Tailwind CSS', percentage: 95, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+          { name: 'Git', percentage: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
         ]
       }
     ]
   },
   projects: {
-    badge: 'МОИ РАБОТЫ',
+    badge: 'НАШИ РАБОТЫ',
     headline: 'Некоторые из недавних проектов',
     items: [
       {
         title: 'E-Commerce Платформа',
-        description: 'Фуллстек решение для интернет-магазина с современным UI/UX',
+        description: 'Фуллстек решение для крупного интернет-магазина с современным UI/UX',
         image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       },
       {
-        title: 'Приложение для задач',
-        description: 'Приложение для совместного управления задачами',
+        title: 'Корпоративный Портал',
+        description: 'Приложение для совместного управления задачами и ресурсами компании',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       },
       {
-        title: 'Крипто-Дашборд',
-        description: 'Дашборд для отслеживания криптовалют в реальном времени',
+        title: 'Аналитический Дашборд',
+        description: 'Мощная панель управления для отслеживания бизнес-метрик в реальном времени',
         image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       }
@@ -88,10 +88,10 @@ export const portfolioConfig = {
   },
   contact: {
     badge: "ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ",
-    headline: 'Есть проект на примете?',
-    description: "Я всегда открыт для обсуждения новых проектов и возможностей. Давайте создадим что-то потрясающее вместе!",
+    headline: 'Нужен современный сайт?',
+    description: "Мы всегда открыты для обсуждения новых проектов и амбициозных задач. Доверьте разработку профессионалам из Pexa!",
     testimonial: {
-      quote: "Алекс — исключительный разработчик, который сдает высококачественную работу в срок. Его внимание к деталям и навыки решения проблем выдающиеся.",
+      quote: "Команда Pexa — это исключительные специалисты, которые сдают высококачественную работу точно в срок. Их подход к бизнес-задачам просто выдающийся.",
       author: 'Сара Джонсон',
       role: 'CEO, TechStart',
       avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
@@ -105,8 +105,8 @@ export const portfolioConfig = {
   },
   nav: [
     { label: 'Главная', href: '#home' },
-    { label: 'Обо мне', href: '#about' },
-    { label: 'Навыки', href: '#skills' },
+    { label: 'О нас', href: '#about' },
+    { label: 'Технологии', href: '#skills' },
     { label: 'Проекты', href: '#projects' },
     { label: 'Блог', href: '#blog' },
     { label: 'Контакты', href: '#contact' },
