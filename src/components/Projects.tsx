@@ -51,7 +51,7 @@ export const Projects = () => {
                 </p>
                 
                 <div className="flex items-center text-sm font-medium text-text-secondary group-hover:text-primary transition-colors mt-auto">
-                  View Project <ArrowUpRight className="w-4 h-4 ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
+                  Смотреть проект <ArrowUpRight className="w-4 h-4 ml-1 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
                 </div>
               </div>
             </motion.a>

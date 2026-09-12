@@ -36,7 +36,7 @@ export const Contact = () => {
               {contact.description}
             </p>
             <Button className="gap-2">
-              Get In Touch <ArrowUpRight className="w-5 h-5" />
+              Связаться <ArrowUpRight className="w-5 h-5" />
             </Button>
           </motion.div>
 
@@ -74,7 +74,7 @@ export const Contact = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-xs font-semibold text-text-secondary tracking-widest uppercase mb-6">
-              Follow Me
+              Мои соцсети
             </h3>
             
             <div className="flex items-center gap-4 mb-10">

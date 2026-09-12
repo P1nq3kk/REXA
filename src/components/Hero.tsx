@@ -38,16 +38,16 @@ export const Hero = () => {
             
             <div className="flex flex-wrap items-center gap-4 mb-12">
               <Button className="gap-2">
-                View My Work <ArrowUpRight className="w-5 h-5" />
+                Смотреть работы <ArrowUpRight className="w-5 h-5" />
               </Button>
               <Button variant="secondary" className="gap-2">
-                Download CV <Download className="w-5 h-5" />
+                Скачать резюме <Download className="w-5 h-5" />
               </Button>
             </div>
 
             <div>
               <p className="text-xs font-semibold text-text-secondary tracking-widest uppercase mb-4">
-                Technologies I Work With
+                ТЕХНОЛОГИИ, С КОТОРЫМИ Я РАБОТАЮ
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 {hero.techIcons.map((tech, idx) => (
@@ -107,7 +107,7 @@ export const Hero = () => {
                 <span className="text-primary">const</span> developer = {'{'} <br/>
                 &nbsp;&nbsp;name: <span className="text-green-400">"{personal.name}"</span>,<br/>
                 &nbsp;&nbsp;skills: [<span className="text-green-400">"React"</span>, <span className="text-green-400">"TS"</span>],<br/>
-                &nbsp;&nbsp;passion: <span className="text-green-400">"Web"</span><br/>
+                &nbsp;&nbsp;passion: <span className="text-green-400">"Веб-разработка"</span><br/>
                 {'}'};
               </div>
             </motion.div>

@@ -1,19 +1,19 @@
 export const portfolioConfig = {
   personal: {
-    name: 'Alex',
-    fullName: 'Alex Developer',
-    role: 'Web Developer',
+    name: 'Алекс',
+    fullName: 'Алекс Разработчик',
+    role: 'Веб-разработчик',
     email: 'hello@alexdev.com',
     phone: '+1 (555) 123-4567',
     cvLink: '#',
-    portrait: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop', // Realistic waist-up developer placeholder
+    portrait: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop',
     logo: 'CodeCraft',
   },
   hero: {
-    badge: "I'M A WEB DEVELOPER",
-    headlinePart1: "Hi, I'm ",
-    headlinePart2: "I build things for the web.",
-    description: "I'm a passionate web developer specializing in building exceptional digital experiences with modern technologies.",
+    badge: "Я ВЕБ-РАЗРАБОТЧИК",
+    headlinePart1: "Привет, я ",
+    headlinePart2: "Я создаю проекты для веба.",
+    description: "Я увлеченный веб-разработчик, специализирующийся на создании исключительных цифровых продуктов с использованием современных технологий.",
     techIcons: [
       { name: 'HTML5', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS3', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -25,19 +25,19 @@ export const portfolioConfig = {
     ]
   },
   about: {
-    badge: 'ABOUT ME',
-    headline: "I'm passionate about\ncreating digital solutions",
-    description: "With 4+ years of experience in web development, I help businesses and individuals bring their ideas to life through clean, efficient, and user-friendly code.",
+    badge: 'ОБО МНЕ',
+    headline: "Я увлечен созданием\nцифровых решений",
+    description: "Имея более 4 лет опыта в веб-разработке, я помогаю компаниям и частным лицам воплощать их идеи в жизнь с помощью чистого, эффективного и удобного кода.",
     stats: [
-      { icon: 'calendar', value: '4+', label: 'Years Experience' },
-      { icon: 'code', value: '50+', label: 'Projects Completed' },
-      { icon: 'smile', value: '30+', label: 'Happy Clients' },
-      { icon: 'trophy', value: '100%', label: 'Client Satisfaction' },
+      { icon: 'calendar', value: '4+', label: 'Года Опыта' },
+      { icon: 'code', value: '50+', label: 'Выполненных Проектов' },
+      { icon: 'smile', value: '30+', label: 'Довольных Клиентов' },
+      { icon: 'trophy', value: '100%', label: 'Удовлетворенность' },
     ]
   },
   skills: {
-    badge: 'MY SKILLS',
-    headline: 'Technologies I Master',
+    badge: 'МОИ НАВЫКИ',
+    headline: 'Технологии, которыми я владею',
     categories: [
       {
         skills: [
@@ -63,38 +63,38 @@ export const portfolioConfig = {
     ]
   },
   projects: {
-    badge: 'FEATURED PROJECTS',
-    headline: 'Some of My Recent Work',
+    badge: 'МОИ РАБОТЫ',
+    headline: 'Некоторые из недавних проектов',
     items: [
       {
-        title: 'E-Commerce Platform',
-        description: 'Full-stack e-commerce solution with modern UI/UX',
-        image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop', // Placeholder e-commerce
+        title: 'E-Commerce Платформа',
+        description: 'Фуллстек решение для интернет-магазина с современным UI/UX',
+        image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       },
       {
-        title: 'Task Management App',
-        description: 'Collaborative task management application',
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop', // Placeholder app
+        title: 'Приложение для задач',
+        description: 'Приложение для совместного управления задачами',
+        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       },
       {
-        title: 'Crypto Dashboard',
-        description: 'Real-time cryptocurrency tracking dashboard',
-        image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=1000&auto=format&fit=crop', // Placeholder dashboard
+        title: 'Крипто-Дашборд',
+        description: 'Дашборд для отслеживания криптовалют в реальном времени',
+        image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=1000&auto=format&fit=crop',
         link: '#',
       }
     ]
   },
   contact: {
-    badge: "LET'S WORK TOGETHER",
-    headline: 'Have a project in mind?',
-    description: "I'm always open to discussing new projects and opportunities. Let's create something amazing together!",
+    badge: "ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ",
+    headline: 'Есть проект на примете?',
+    description: "Я всегда открыт для обсуждения новых проектов и возможностей. Давайте создадим что-то потрясающее вместе!",
     testimonial: {
-      quote: "Alex is an exceptional developer who delivers high-quality work on time. His attention to detail and problem-solving skills are outstanding.",
-      author: 'Sarah Johnson',
+      quote: "Алекс — исключительный разработчик, который сдает высококачественную работу в срок. Его внимание к деталям и навыки решения проблем выдающиеся.",
+      author: 'Сара Джонсон',
       role: 'CEO, TechStart',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop', // female avatar
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
     },
     socials: [
       { name: 'GitHub', icon: 'github', link: '#' },
@@ -104,11 +104,11 @@ export const portfolioConfig = {
     ]
   },
   nav: [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Blog', href: '#blog' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Главная', href: '#home' },
+    { label: 'Обо мне', href: '#about' },
+    { label: 'Навыки', href: '#skills' },
+    { label: 'Проекты', href: '#projects' },
+    { label: 'Блог', href: '#blog' },
+    { label: 'Контакты', href: '#contact' },
   ]
 };

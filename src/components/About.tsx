@@ -36,7 +36,7 @@ export const About = () => {
               {about.description}
             </p>
             <Button variant="secondary" className="gap-2">
-              Learn More About Me
+              Узнать обо мне больше
             </Button>
           </motion.div>
 

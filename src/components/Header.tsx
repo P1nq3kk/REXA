@@ -41,10 +41,10 @@ export const Header = () => {
           ))}
         </nav>
 
-        {/* Hire Me CTA */}
+        {/* Нанять меня CTA */}
         <div className="hidden md:block">
           <Button size="sm" className="gap-2">
-            Hire Me <ArrowUpRight className="w-4 h-4" />
+            Нанять меня <ArrowUpRight className="w-4 h-4" />
           </Button>
         </div>
 
@@ -71,7 +71,7 @@ export const Header = () => {
             </a>
           ))}
           <Button className="mt-4 gap-2 w-full">
-            Hire Me <ArrowUpRight className="w-4 h-4" />
+            Нанять меня <ArrowUpRight className="w-4 h-4" />
           </Button>
         </div>
       )}
