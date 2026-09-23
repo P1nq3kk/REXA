@@ -16,8 +16,6 @@ export const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Format phone number for tel: link
-  const phoneLink = `tel:${portfolioConfig.personal.phone.replace(/[^0-9+]/g, '')}`;
   // Format WhatsApp link as a nice bonus
   const waLink = `https://wa.me/${portfolioConfig.personal.phone.replace(/[^0-9]/g, '')}`;
 
