@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { portfolioConfig } from '../data/config';
 import { Button } from './ui/Button';
-import { Code2, Menu, X, ArrowUpRight, Mail, Phone } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Mail, Phone } from 'lucide-react';
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
