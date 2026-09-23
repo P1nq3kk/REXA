@@ -76,14 +76,12 @@ export const Hero = () => {
             <div className="relative z-10 w-full aspect-square md:aspect-[4/5] rounded-[2rem] overflow-hidden border border-border bg-card/50 backdrop-blur-sm p-4">
                {/* Inner glow and portrait */}
                <div className="w-full h-full rounded-3xl overflow-hidden relative bg-gradient-to-br from-primary/30 to-secondary/10 flex items-center justify-center flex-col gap-4">
-                  <div className="text-primary w-32 h-32 md:w-48 md:h-48 drop-shadow-[0_0_30px_rgba(124,77,255,0.5)] flex items-center justify-center">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
-                      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                      <polyline points="3.29 7 12 12 20.71 7"></polyline>
-                      <line x1="12" y1="22" x2="12" y2="12"></line>
+                  <div className="text-[#0055FF] w-32 h-32 md:w-48 md:h-48 drop-shadow-[0_0_30px_rgba(0,85,255,0.5)] flex items-center justify-center">
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
+                      <polygon points="14,2 4,13 13,13 10,22 20,11 11,11" />
                     </svg>
                   </div>
-                  <span className="text-4xl md:text-5xl font-black tracking-tight text-white/90 drop-shadow-md uppercase">ISKRA</span>
+                  <span className="text-4xl md:text-5xl font-black tracking-widest text-white/90 drop-shadow-md mt-2">ISKRΛ</span>
                </div>
             </div>
 

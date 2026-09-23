@@ -29,8 +29,10 @@ export const Header = () => {
         <div className="container mx-auto px-6 max-w-6xl flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <Code2 className="w-8 h-8 text-primary group-hover:text-glow transition-colors" />
-            <span className="text-xl font-bold tracking-tight">{portfolioConfig.personal.logo}</span>
+            <svg viewBox="0 0 24 24" className="w-8 h-8 text-[#0055FF] fill-current group-hover:drop-shadow-[0_0_15px_rgba(0,85,255,0.8)] transition-all" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="14,2 4,13 13,13 10,22 20,11 11,11" />
+            </svg>
+            <span className="text-2xl font-black tracking-widest text-text-main mt-1">ISKRΛ</span>
           </a>
 
           {/* Desktop Nav */}
