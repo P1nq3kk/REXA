@@ -3,7 +3,7 @@ export const portfolioConfig = {
     name: 'ISKRA',
     fullName: 'Команда ISKRA',
     role: 'Веб-студия',
-    email: 'hello@iskra.dev',
+    email: 'iskradevelopmentt@gmail.com',
     phone: '+7 (999) 123-45-67',
     cvLink: '#',
     portrait: '', // Will be replaced by a logo icon in the component
