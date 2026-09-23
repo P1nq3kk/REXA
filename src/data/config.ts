@@ -67,22 +67,22 @@ export const portfolioConfig = {
     headline: 'Некоторые из недавних проектов',
     items: [
       {
-        title: 'E-Commerce Платформа',
-        description: 'Фуллстек решение для крупного интернет-магазина с современным UI/UX',
-        image: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop',
-        link: '#',
+        title: 'Aura Motors',
+        description: 'Корпоративный сайт автосалона: онлайн-каталог и запись на обслуживание.',
+        image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1000&auto=format&fit=crop',
+        link: 'https://aura-motors.onrender.com/',
       },
       {
-        title: 'Корпоративный Портал',
-        description: 'Приложение для совместного управления задачами и ресурсами компании',
-        image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop',
-        link: '#',
+        title: 'Vertex Construction',
+        description: 'Сайт строительной компании с портфолио объектов и услугами.',
+        image: 'https://images.unsplash.com/photo-1504307651254-35680f356f58?q=80&w=1000&auto=format&fit=crop',
+        link: 'https://vertex-construction.onrender.com/',
       },
       {
-        title: 'Аналитический Дашборд',
-        description: 'Мощная панель управления для отслеживания бизнес-метрик в реальном времени',
-        image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?q=80&w=1000&auto=format&fit=crop',
-        link: '#',
+        title: 'Dentis Lux',
+        description: 'Современный сайт стоматологической клиники с онлайн-записью.',
+        image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop',
+        link: 'https://dentis-lux.onrender.com/',
       }
     ]
   },
