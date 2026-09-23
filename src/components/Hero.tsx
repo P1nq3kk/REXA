@@ -83,7 +83,7 @@ export const Hero = () => {
                       <line x1="12" y1="22" x2="12" y2="12"></line>
                     </svg>
                   </div>
-                  <span className="text-4xl md:text-5xl font-black tracking-tight text-white/90 drop-shadow-md uppercase">Pexa</span>
+                  <span className="text-4xl md:text-5xl font-black tracking-tight text-white/90 drop-shadow-md uppercase">ISKRA</span>
                </div>
             </div>
 

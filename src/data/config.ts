@@ -1,19 +1,19 @@
 export const portfolioConfig = {
   personal: {
-    name: 'Pexa',
-    fullName: 'Команда Pexa',
+    name: 'ISKRA',
+    fullName: 'Команда ISKRA',
     role: 'Веб-студия',
-    email: 'hello@pexa.dev',
+    email: 'hello@iskra.dev',
     phone: '+7 (999) 123-45-67',
     cvLink: '#',
     portrait: '', // Will be replaced by a logo icon in the component
-    logo: 'Pexa',
+    logo: 'ISKRA',
   },
   hero: {
     badge: "ВЕБ-СТУДИЯ",
     headlinePart1: "Мы — команда ",
     headlinePart2: "Создаем современные сайты.",
-    description: "Мы — команда профессионалов Pexa, специализирующаяся на разработке высокотехнологичных веб-приложений и уникальных цифровых продуктов для вашего бизнеса.",
+    description: "Мы — команда профессионалов ISKRA, специализирующаяся на разработке высокотехнологичных веб-приложений и уникальных цифровых продуктов для вашего бизнеса.",
     techIcons: [
       { name: 'HTML5', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS3', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -89,9 +89,9 @@ export const portfolioConfig = {
   contact: {
     badge: "ДАВАЙТЕ РАБОТАТЬ ВМЕСТЕ",
     headline: 'Нужен современный сайт?',
-    description: "Мы всегда открыты для обсуждения новых проектов и амбициозных задач. Доверьте разработку профессионалам из Pexa!",
+    description: "Мы всегда открыты для обсуждения новых проектов и амбициозных задач. Доверьте разработку профессионалам из ISKRA!",
     testimonial: {
-      quote: "Команда Pexa — это исключительные специалисты, которые сдают высококачественную работу точно в срок. Их подход к бизнес-задачам просто выдающийся.",
+      quote: "Команда ISKRA — это исключительные специалисты, которые сдают высококачественную работу точно в срок. Их подход к бизнес-задачам просто выдающийся.",
       author: 'Сара Джонсон',
       role: 'CEO, TechStart',
       avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
