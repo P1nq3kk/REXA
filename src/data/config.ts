@@ -75,7 +75,7 @@ export const portfolioConfig = {
       {
         title: 'Vertex Construction',
         description: 'Сайт строительной компании с портфолио объектов и услугами.',
-        image: 'https://images.unsplash.com/photo-1504307651254-35680f356f58?q=80&w=1000&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop',
         link: 'https://vertex-construction.onrender.com/',
       },
       {
